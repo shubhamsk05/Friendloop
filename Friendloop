@@ -1,0 +1,108 @@
+export default function FriendLoop() { return ( <div className="min-h-screen bg-gradient-to-br from-blue-100 via-white to-purple-100 text-gray-800"> <header className="flex items-center justify-between px-8 py-5 shadow-md bg-white/70 backdrop-blur-md sticky top-0 z-50"> <h1 className="text-3xl font-bold text-blue-600">FriendLoop</h1> <button className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-2xl shadow-lg transition-all"> Start Chat </button> </header>
+
+<section className="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center">
+    <div>
+      <h2 className="text-5xl font-extrabold leading-tight mb-6">
+        Meet New Friends <br /> From Around The World 🌍
+      </h2>
+
+      <p className="text-lg text-gray-600 mb-8">
+        Chat instantly with people globally using text, audio and video calls.
+        Safe, fast and simple friendship platform.
+      </p>
+
+      <div className="flex gap-4 flex-wrap">
+        <button className="bg-blue-600 text-white px-6 py-3 rounded-2xl shadow-xl hover:scale-105 transition-all">
+          Join Now
+        </button>
+
+        <button className="border border-gray-300 bg-white px-6 py-3 rounded-2xl hover:bg-gray-100 transition-all">
+          Explore Rooms
+        </button>
+      </div>
+    </div>
+
+    <div className="bg-white p-8 rounded-3xl shadow-2xl">
+      <h3 className="text-2xl font-bold mb-6 text-center">Quick Join</h3>
+
+      <div className="space-y-4">
+        <input
+          type="text"
+          placeholder="Enter your name"
+          className="w-full border border-gray-300 rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-blue-400"
+        />
+
+        <input
+          type="email"
+          placeholder="Enter your email"
+          className="w-full border border-gray-300 rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-blue-400"
+        />
+
+        <select className="w-full border border-gray-300 rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-blue-400">
+          <option>Select Interest</option>
+          <option>Gaming</option>
+          <option>Music</option>
+          <option>Study</option>
+          <option>Travel</option>
+          <option>Business</option>
+        </select>
+
+        <button className="w-full bg-purple-600 hover:bg-purple-700 text-white py-3 rounded-xl font-semibold transition-all">
+          Enter FriendLoop
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section className="max-w-6xl mx-auto px-6 py-16">
+    <h3 className="text-4xl font-bold text-center mb-12">Features</h3>
+
+    <div className="grid md:grid-cols-3 gap-8">
+      <div className="bg-white rounded-3xl p-8 shadow-xl">
+        <div className="text-5xl mb-4">💬</div>
+        <h4 className="text-2xl font-bold mb-3">Live Chat</h4>
+        <p className="text-gray-600">
+          Instantly connect with new people worldwide using realtime chat.
+        </p>
+      </div>
+
+      <div className="bg-white rounded-3xl p-8 shadow-xl">
+        <div className="text-5xl mb-4">🎥</div>
+        <h4 className="text-2xl font-bold mb-3">Video Call</h4>
+        <p className="text-gray-600">
+          Enable camera and mic to enjoy smooth video communication.
+        </p>
+      </div>
+
+      <div className="bg-white rounded-3xl p-8 shadow-xl">
+        <div className="text-5xl mb-4">🌎</div>
+        <h4 className="text-2xl font-bold mb-3">Global Users</h4>
+        <p className="text-gray-600">
+          Meet friends from different countries and cultures.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section className="bg-blue-600 text-white py-16 mt-12">
+    <div className="max-w-4xl mx-auto text-center px-6">
+      <h3 className="text-4xl font-bold mb-6">
+        Ready To Start Your Friendship Journey?
+      </h3>
+
+      <p className="text-lg mb-8 text-blue-100">
+        Join FriendLoop and meet amazing people instantly.
+      </p>
+
+      <button className="bg-white text-blue-600 px-8 py-4 rounded-2xl font-bold hover:scale-105 transition-all shadow-xl">
+        Start Free
+      </button>
+    </div>
+  </section>
+
+  <footer className="text-center py-8 text-gray-500 text-sm bg-white">
+    © 2026 FriendLoop • Global Friendship Platform
+  </footer>
+</div>
+
+); }
