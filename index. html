@@ -2,6 +2,10 @@
 <html>
 <head>
 <title>FriendLoop</title>
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
 <style>
 body{
 font-family:Arial;
