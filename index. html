@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FriendLoop</title>
+<style>
+body{
+font-family:Arial;
+background:linear-gradient(to right,#4facfe,#00f2fe);
+text-align:center;
+padding-top:100px;
+color:white;
+}
+button{
+padding:15px 30px;
+font-size:20px;
+border:none;
+border-radius:10px;
+background:white;
+color:#0077ff;
+}
+</style>
+</head>
+
+<body>
+
+<h1>🌍 FriendLoop</h1>
+
+<h2>Meet New Friends Worldwide</h2>
+
+<p>Text Chat • Audio • Video Call</p>
+
+<button>Start Chat</button>
+
+</body>
+</html>
